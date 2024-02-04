@@ -3,22 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <title>Personal Portfolio Website</title>
-        <!----CSS link----->
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <div class="hero">
             <nav>
-                <img src="./img/logo.png" class="logo" />
+                <img src="logo1.png" class="logo" />
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#know">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <!-- <li><a href="#">Blog</a></li> -->
+                    <li><a href="#social-menu">Socials</a></li>
                 </ul>
-                <a href="#" class="btn">Resume</a>
+                <a href="#contact" class="btn">Contact Me</a>
             </nav>
             <div class="content">
                 <span class="title">Freelance Web Developer</span>
@@ -26,8 +24,123 @@
                 <p>
                     An enthusiastic tech student from IIIT Allahabad, looking to explore various avenues of software development including android development, frontend development and backend development using technologies such as HTML, CSS, KOTLIN, XML and JAVASCRIPT   
                 </p>
-                <a href="#" class="btn">More About Me</a>
+                <a href="#know" class="btn">More About Me</a>
             </div>
         </div>
+        <h2 class="title" id="know">About Me</h2>
+        
+        <div class="about">
+            <div class="container-3">
+                <!-- <h2 class="title">About Me</h2> -->
+                <div class="c3">
+                    
+                    <img src="photo1.png" alt="Your Picture" class="about-image">
+                    
+                </div>
+
+            </div>
+            <table class="about-table">
+                <tr>
+                    <td>Name:</td>
+                    <td>Yojit Kapoor</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>yojit49@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>7986120818</td>
+                </tr>
+                <tr>
+                    <td>College:</td>
+                    <td>Indian Institute of Information Technology, Allahabad</td>
+                </tr>
+                <tr>
+                    <td>Birthday:</td>
+                    <td>28th April 2005</td>
+                </tr>
+                <tr>
+                    <td>Field of Study:</td>
+                    <td>Information Technology with specialisation in Business Informatics</td>
+                </tr>
+            </table>
+        </div>
+        
+        <h2 class="title1" id="skill">Skills</h2>
+        <section id="skills">
+            <div class="container-4">
+                
+                <div class="skills-graph">
+                    <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="bar" style="--skill-level: 200%;"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="bar" style="--skill-level: 150%;"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Kotlin</div>
+                        <div class="bar" style="--skill-level: 120%;"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">XML</div>
+                        <div class="bar" style="--skill-level: 160%;"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="bar" style="--skill-level: 80%;"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">C</div>
+                        <div class="bar" style="--skill-level: 210%;"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">C++</div>
+                        <div class="bar" style="--skill-level: 240%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    <section id="contact">
+        <div class="ContactContent">
+            <div class="Cc">
+                <h2 class="title">Contact Me</h2>
+                <form>
+                    <div class="mb">
+                        <input type="text" class="lg" placeholder="Name">
+                    </div>
+                    <div class="mb-1">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                    <button type="button" class="success">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <div id="social-menu" class="social-menu hidden">
+        <div class="menu">
+            <a href="#" class="icon"><img src="instalogo2.jpg" alt="Instagram"></a>
+            <a href="#" class="icon"><img src="linkedinlogo.jpg" alt="LinkedIn"></a>
+            <a href="#" class="icon"><img src="githublogo.jpg" alt="GitHub"></a>
+            <a href="#" class="icon"><img src="cheflogo.jpg" alt="CodeChef"></a>
+            <a href="#" class="icon"><img src="cflogo.jpg" alt="Codeforces"></a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+
     </body>
 </html>
