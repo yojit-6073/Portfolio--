@@ -3,7 +3,7 @@ window.addEventListener('scroll', function() {
     var windowHeight = window.innerHeight;
     var documentHeight = document.body.offsetHeight;
 
-    if (scrollPosition + windowHeight >= documentHeight - 50) {
+    if (scrollPosition + windowHeight >= documentHeight - 15) {
         document.getElementById('social-menu').classList.remove('hidden');
     } else {
         document.getElementById('social-menu').classList.add('hidden');

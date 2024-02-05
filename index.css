@@ -265,6 +265,7 @@ h2.title1{
 .menu {
     display: flex;
     justify-content: center;
+    
 }
 
 .icon {
@@ -274,6 +275,17 @@ h2.title1{
 .menu a {
     text-decoration: none;
     color: #fff;
+}
+
+.menu a img{
+    border-radius: 10px;
+    transition: 0.25s;
+    box-shadow: 4px 4px 10px  rgb(40, 39, 39);
+
+}
+
+.menu a img:hover{
+    transform: scale(1.2);
 }
 
 
