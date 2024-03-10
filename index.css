@@ -197,9 +197,9 @@ h2.title {
 
 .about-table tr:nth-child(even) {
     background-color: #8589c1;
-  }
+}
   
-  #skills {
+#skills {
     background-color: #B6B8D6; 
     padding: 30px;
 }
@@ -305,3 +305,35 @@ label {
     display: flex;
 }
 
+
+#projects {
+    padding: 50px 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-image {
+    height: 200px;
+    background: #ccc;
+}
+
+.project-title {
+    padding: 10px;
+    text-align: center;
+    background: #f8f8f8;
+}
